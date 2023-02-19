@@ -1,0 +1,182 @@
+.navbar{
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.logo{
+  margin-left: 50px;
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+.general{
+  display: flex;
+}
+.enlaces{
+  display: flex;
+  height:40px;
+  border-right: 2px solid;
+  vertical-align: center;
+  align-items: center;
+}
+.enlaces a{
+  text-decoration: none;
+  color: white;
+  padding:0px 10px;
+}
+.enlaces a:hover{
+  border-bottom: 2px solid white;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  font-weight: bold;
+}
+.administracion{
+  display: flex;
+  height: 40px;
+  vertical-align: center;
+  align-items: center;
+}
+.administracion a{
+  text-decoration: none;
+  color: white;
+  padding:0px 10px;
+}
+.administracion a:hover{
+  border-bottom: 2px solid white;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  font-weight: bold;
+}
+.busqueda{
+  margin-right: 50px;
+}
+
+.jumbotron{
+  display: grid;
+  grid-template-columns: 2, 1fr;
+  grid-template-rows:2, 1fr;
+  padding: 50px 50px;
+  background: linear-gradient(to right, #ffffff, #E1D4C4,#804000, #000000);
+}
+.titulares{
+  grid-column: 1;
+  grid-row: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #804000;
+}
+.titulares h1{
+  font-size: 49px;
+}
+.titulares h3{
+  color: #EA899A;
+  font-size: 1.5rem;
+  margin-bottom: 110px;
+}
+.contacto{
+  grid-column: 1 ;
+  grid-row: 2/3;
+}
+.contacto h4{
+  font-weight:700;
+}
+.contacto nav{
+  background-color: rgba(red, green, blue, 0);
+}
+.contacto form{
+  padding-left: 0;
+  padding-right: 30px;
+}
+.contacto p{
+  font-size: 14px;
+  margin: 0;
+}
+.carrusel{
+  grid-column: 2;
+  grid-row: 1/3;
+  width: 600px;
+  height: 400px;
+}
+
+.catalogo{
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F1EBE3;
+}
+.subtitulares{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #804000;
+  margin-bottom: 30px;
+}
+.catalogo-tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1020px;
+}
+.tarjetas-catalogo{
+  margin: 25px 15px;
+}
+.tarjetas-catalogo img{
+  width: 310px;
+  height: 250px;
+}
+.tarjetas-catalogo button{
+  border-radius: 8px;
+}
+.tarjetas-catalogo button:hover{
+  background-color: #804000;
+  color: white;
+  border: #804000;
+  padding: 3px 8px;
+}
+
+.beneficios{
+  padding: 50px 50px;
+  background: linear-gradient(to bottom, #F1EBE3, #E1D4C4,#804000);
+  text-align: center;
+}
+.beneficios-tarjetas{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.tarjetas-beneficios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0px -5px 10px #804000;
+}
+.tarjetas-beneficios svg{
+  width: 150px;
+  height: 100px;
+}
+
+.pie-pagina{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 50px 50px;
+}
+.tabla-enlaces{
+  font-size: small;
+}
+.tabla-enlaces th, td{
+  padding: 5px 50px;
+}
+.redes-sociales a{
+  color: white;
+  text-decoration: none;
+}
