@@ -1,8 +1,3 @@
-.navbar{
-  background-color: black;
-  color: white;
-  display: flex;
-}
 .logo{
   margin-left: 50px;
 }
@@ -167,14 +162,16 @@
 
 .pie-pagina{
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   background-color: #000000;
   color: #FFFFFF;
   padding: 50px 50px;
 }
 .tabla-enlaces{
   font-size: small;
+  margin-bottom: 20px;
 }
 .tabla-enlaces th, td{
   padding: 5px 50px;
@@ -209,4 +206,28 @@
   .contacto{
     order: 3;
   }
+}
+@media screen and (max-width: 775px) {
+  .carrusel{
+    width: 400px;
+    height: 270px;
+  }
+  .titulares h1{
+    font-size: 39px;
+  }
+  .titulares h2{
+    font-size: 25px;
+  }
+  .titulares h3{
+    font-size: 22px;
+  }
+  .contacto h4{
+    font-size: 20px;
+  }
+  .contacto h5{
+    font-size: 18px;
+  }
+}
+@media screen and(width:555px) {
+ 
 }
